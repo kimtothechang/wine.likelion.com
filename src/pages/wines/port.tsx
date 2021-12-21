@@ -1,8 +1,7 @@
 import type { NextPage } from "next";
-import { Error, Loading } from "../../components";
+import { Error, Loading, WineCard } from "../../components";
 import { useWineData } from "../../hooks/useWineData";
 import { Wine } from "../../types/Wine";
-import { WineCard } from "../../components/WineCard";
 
 const PortWinePage: NextPage = () => {
   const name = "port";

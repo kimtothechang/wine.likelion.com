@@ -1,8 +1,7 @@
 import type { NextPage } from "next";
-import { Error, Loading } from "../../components";
+import { Error, Loading, BeerCard } from "../../components";
 import { useBeerData } from "../../hooks/useBeerData";
 import { Beer } from "../../types/Beer";
-import { BeerCard } from "../../components/BeerCard";
 
 const StoutsBeerPage: NextPage = () => {
   const name = "stouts";
