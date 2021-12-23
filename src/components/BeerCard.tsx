@@ -9,7 +9,7 @@ export const BeerCard = ({ beerData }: BeerProps) => {
 
   return (
     <div>
-      <h1>{name}</h1>
+      <h2>{name}</h2>
       <p>{price}</p>
     </div>
   );
