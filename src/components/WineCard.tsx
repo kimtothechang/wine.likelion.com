@@ -36,21 +36,11 @@ const Container = styled.div`
   border-radius: 1em;
 `;
 
-const ImageContainer = styled.div`
-  width: 100%;
-`;
-
-const Title = styled.h2`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
-const Average = styled.div`
+const Average = styled.span`
   display: inline-block;
   padding: 0.3em;
   font-size: 16px;
-  margin-left: 0.5em
+  margin-left: 0.5em;
   color: white;
   background: #2ac1bc;
   border-radius: 3px;
