@@ -11,21 +11,7 @@ const IndexBeerPage: NextPage = () => {
   if (error) return <Error />;
   if (!data) return <Loading />;
 
-  return (
-    <div>
-      <h1>Beer</h1>
-      <main>
-        {data.map((beerData: Beer) => {
-          return (
-            <BeerCard
-              key={`ale-beer-list-${beerData.id}`}
-              beerData={beerData}
-            />
-          );
-        })}
-      </main>
-    </div>
-  );
+  return <div></div>;
 };
 
 export default IndexBeerPage;

@@ -19,7 +19,7 @@ export const WineCard = ({ wineData }: WineProps) => {
         {winery} - {location}
       </p>
       <p>
-        별점:
+        리뷰:
         {rating.reviews.replace(" ratings", "")}
       </p>
     </Container>

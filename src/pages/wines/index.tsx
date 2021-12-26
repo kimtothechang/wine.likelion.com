@@ -10,21 +10,7 @@ const IndexWinePage: NextPage = () => {
   if (error) return <Error />;
   if (!data) return <Loading />;
 
-  return (
-    <div>
-      <h1>Wine</h1>
-      <main>
-        {data.map((wineData: Wine) => {
-          return (
-            <WineCard
-              key={`index-wine-list-${wineData.id}`}
-              wineData={wineData}
-            />
-          );
-        })}
-      </main>
-    </div>
-  );
+  return <div></div>;
 };
 
 export default IndexWinePage;
