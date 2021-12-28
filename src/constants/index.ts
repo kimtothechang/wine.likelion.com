@@ -1,5 +1,7 @@
 export const WINE_API_ENDPOINT = "https://api.sampleapis.com/wines/";
 export const BEER_API_ENDPOINT = "https://api.sampleapis.com/beers/";
+export const FUTURAMA_INFO_API_ENDPOINT =
+  "https://api.sampleapis.com/futurama/";
 
 export const MEDIA_QUERY_END_POINT = {
   MOBILE: "640px",
